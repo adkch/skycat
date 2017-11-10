@@ -1,0 +1,446 @@
+/*通用样式*/
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+body{
+	min-width:960px;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.cl{
+	clear:both;
+}
+a{
+	color:black;
+}
+a:hover{
+	opacity:0.7;
+}
+li{
+	list-style:none;
+}
+.size_16{
+	font-size:16px;
+}
+.opacity_0{
+	opacity:0
+}
+.p_center{
+	text-align:center;
+}
+.vertical_align_top{
+	vertical-align:top;
+}
+.color_blue{
+	color:blue;
+}
+/*头部开始*/
+header{
+	font-size:12px;
+	background-color:#f2f2f2;
+	color:#999999;
+	height:32px;
+	width:100%;
+	line-height:32px;
+	position:relative;
+	z-index:60;
+}
+.header_all{
+	 width:92.7%;
+	 height:32px;
+	 margin:0 auto;
+}
+.header_all_photo{
+	vertical-align:-2px;
+}
+.geren{
+	height:127px;
+	width:264px;
+}
+.geren p{
+	text-align:right;
+}
+.geren_1{
+	width:200px;
+	text-align:center;
+}
+.geren_2{
+	height:19px;
+	width:228px;
+	border:1px solid #ddf6be;
+	background-color:#e9fecf;
+	margin:0 auto;
+	line-height:19px;
+	text-align:center;
+}
+header span{
+	margin-right:12px;
+}
+header span b{
+	color:red;
+}
+header a{
+	color:#999999;
+}
+header ul{
+	list-style:none;
+}
+header ul li{
+	float:left;
+	height:32px;
+	padding-left:9px;
+	padding-right:9px;
+}
+header ul span{
+	display:none;
+}
+header ul li:hover{
+	background-color:white;
+}
+a:hover{
+	color:#ff0036;
+}
+header a:hover .deep_list{
+	transform:rotate(180deg);
+	transition:all 0.5s linear 0s;
+}
+.deep_photo{
+	 vertical-align:2px;
+	 overflow:hidden;
+}
+deep_p_left{
+	margin-left:10px;
+}
+.deep:hover span{
+	display:block;
+	background-color:white;
+	line-height:32px;
+	position:absolute;
+	margin-left:-10px;
+	top: 32px;
+	border:1px solid #eeeeee;
+	border-top:none;
+	z-index:999;
+}
+.fight{
+	 border-bottom:1px dashed black;
+	 width:143px;
+	 text-align:center;
+}
+.fight td{
+	height:20px;
+	width:71px;
+	font-size:12px;
+}
+/*网站支持，网站导航*/
+.nav_big{
+	 width:1250px;
+	 height:250px;
+	 background-color:white;
+	 position:absolute;
+	 right:-84px;
+	 border:1px solid #eeeeee;
+	 border-top:none;
+	 z-index:100px;
+}
+.nav_big td{
+	width:82px;
+	height:28px;
+}
+.nav_1{
+	height:248px;
+	width:305px;
+}
+.nav_1 h2{
+	color:#f67b1e;
+}
+.nav_2{
+	height:248px;
+	width:405px;
+}
+.nav_2 h2{
+	color:#2263d4;
+}
+.nav_3{
+	height:248px;
+	width:300px;
+}
+.nav_3 h2{
+	color:#000;
+}
+.nav_4{
+	height:248px;
+	width:185px;
+}
+.nav_4 h2{
+	color:#000;
+}
+.nav_big table{
+	margin-left:30px;
+}
+.nav_big h2{
+	margin-left:30px;
+	margin-top:20px;
+}
+/*header结束*/
+/*右侧导航栏开始*/
+.center_right{
+	position:fixed;
+	right:5px;
+	top:50%;
+}
+.center_right_li{
+	border-bottom:1px solid #0a82c8;
+}
+.right_li_photo{
+	margin-top:13px;
+}
+.oppo{
+	opacity:0;
+	position:absolute;
+	top:-64px;
+	right:0px;
+}
+.defont{
+	position:absolute;
+	top:-41px;
+	right:0px;
+}
+.defont:hover .oppo{
+	opacity:1;
+}
+.center_right li{
+	height:44px;
+	width:49px;
+	background-color:#14a4ff;
+	text-align:center;
+}
+/*右侧导航栏结束*/
+/*center开始*/
+.center{
+	height:900px;
+	width:1250px;
+	margin:0 auto;
+	
+}
+.logo{
+	margin:40px 0;
+}
+/*导航栏部分*/
+.nav{
+	height:50px;
+	background-color:#0085d7;
+	line-height:50px;
+}
+.nav li{
+	width:86px;
+	font-size:14px;
+	text-align:center;
+	float:left;
+	background:url(images/nav_jiantou_03.png) no-repeat center 50px;
+}
+.nav li a{
+	color:white;
+}
+.nav li:hover a{
+	opacity:0.7;
+	transition:all 0.2s linear 0s;
+}
+.nav li:hover{
+	background:url(images/nav_jiantou_03.png) no-repeat center bottom;
+	transition:all 0.3s linear 0s;
+}
+.nav_problem{
+	padding-right:30px;
+}
+.problem_a{
+	color:white;
+}
+/*导航栏结束*/
+/*左侧导航栏部分*/
+.nav_left{
+	width:208px;
+	height:400px;
+	position:relative;
+	border:1px solid #e0e0e0;
+}
+.list_application{
+	height:40px;
+	width:208px;
+	line-height:40px;
+	background-color:#f5f5f5;
+	border:1px solid #e0e0e0;
+}
+.rightscript_1{
+	position:absolute;
+	right:33px;
+	top:-1px;
+	transition:all 0.5s linear 0s;
+}
+.list_application:hover .rightscript_1{
+	transform:translatex(15px);
+	transition:all 0.5s linear 0s;
+}
+.rightscript_2{
+	position:absolute;
+	right:30px;
+	top:41px;
+}
+.list_application:hover .rightscript_2{
+	transform:rotate(720deg);
+	transition:all 0.5s linear 0s;
+}
+.nav_left table{
+	width:190px;
+	margin:0 auto;
+}
+.nav_left table td{
+	font-size:14px;
+	position:relative;
+}
+.nav_left table tr:hover .opacity_0{
+	opacity:1;
+	transition:all 0.3s linear 0s;
+}
+.moving_1{
+	position:absolute;
+	right:-50px;
+	top:3px;
+}
+.application_subscript{
+	position:absolute;
+	right:-90px;
+	top:0px;
+}
+/*左侧导航栏结束*/
+/*内容部分开始*/
+.nav_right{
+	width:1024px;
+}
+.content{
+	width:1024px;
+	height:600px;
+	border:1px solid #d6e5f4;
+}
+.translate{
+	margin-left:42px;
+}
+.geren_dp{
+	width:512px;
+	text-align:center;
+}
+.complan_dp{
+	width:512px;
+	text-align:center;
+}
+.goon{
+	background:url(images/buzhou_03.jpg) no-repeat;
+	width:939px;
+	height:80px;
+	margin:0 auto;
+	margin-bottom:80px;
+	margin-top:20px;
+	position:relative;
+	font-size:14px;
+}
+.goon_1{
+	position:absolute;
+	left:10%;
+	top:24%;
+}
+.goon_white{
+	color:white;
+}
+.goon_2{
+	position:absolute;
+	left:43%;
+	top:24%;
+}
+.goon_c1{
+	color:#c1c3c7;
+}
+.goon_3{
+	position:absolute;
+	left:76%;
+	top:24%;
+}
+.content h3{
+	margin-bottom:20px;
+	margin-top:10px;
+}
+.content p{
+	width:180px;
+	margin:0 auto;
+	font-size:12px;
+}
+.button_dp{
+	width:200px;
+	height:40px;
+	background-color:#0085d7;
+	color:white;
+	border:none;
+	border-radius:5px;
+	font-size:16px;
+	margin-top:30px;
+	transition:all 0.1s linear 0s;
+}
+.button_dp:hover{
+	background-color:#0f467c;
+	transition:all 0.1s linear 0s;
+}
+.twohands{
+	height:180px;
+	width:1024px;
+	margin-top:25px;
+	margin-bottom:36px;
+	border:1px solid #d6e5f4;
+}
+.twohands h3{
+	margin-top:45px;
+}
+.button_fb{
+	width:104px;
+	height:38px;
+	background-color:#ebf1f5;
+	border:1px solid #c4c6cf;
+	border-radius:5px;
+	font-size:16px;
+	margin-top:12px;
+	margin-left:42px;
+	transition:all 0.1s linear 0s;
+}
+.button_fb:hover{
+	background-color:white;
+	transition:all 0.1s linear 0s;
+}
+.complan_dp_blue{
+	color:blue;
+}
+/*center结束*/
+/*footer开始*/
+footer{
+	width:1200px;
+	font-size:12px;
+	margin:0 auto;
+}
+footer a:hover{
+	color:#f60;
+}
+footer li{
+	list-style:none;
+	margin:5px 10px;
+	float:left;
+}
+.friendship{
+	height:30px;
+}
+.friendship_span_left{
+	margin-left:20px;
+}
+/*footer结束*/

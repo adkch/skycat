@@ -1,0 +1,293 @@
+/*通用样式*/
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+body{
+	min-width:960px;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.cl{
+	clear:both;
+}
+a{
+	color:black;
+}
+a:hover{
+	color:#ff0036;
+}
+.vertical_align_2{
+	vertical-align:2px;
+	overflow:hidden;
+}
+.vertical_align_top{
+	vertical-align:top;
+}
+/*头部开始*/
+header{
+	font-size:12px;
+	background-color:#f2f2f2;
+	color:#999999;
+	height:32px;
+	width:100%;
+	line-height:32px;
+	position:relative;
+	z-index:60;
+}
+.header_all{
+	width:94%;
+	height:32px;
+	margin:0 auto;
+}
+.geren{
+	height:127px;
+	width:264px;
+}
+.geren p{
+	text-align:right;
+}
+.geren_1{
+	width:200px;
+	text-align:center;
+}
+.geren_2{
+	 height:19px;
+	 width:228px;
+	 border:1px solid #ddf6be;
+	 background-color:#e9fecf;
+	 margin:0 auto;
+	 line-height:19px;
+	 text-align:center;
+}
+header span{
+	margin-right:12px;
+}
+header span b{
+	color:red;
+}
+header a{
+	color:#999999;
+}
+header ul{
+	list-style:none;
+}
+header ul li{
+	float:left;
+	height:32px;
+	padding-left:9px;
+	padding-right:9px;
+}
+header ul span{
+	display:none;
+}
+header ul li:hover{
+	background-color:white;
+}
+header a:hover .deep{
+	transform:rotate(180deg);
+	transition:all 0.5s linear 0s;
+}
+.banner_cx:hover span{
+	display:block;
+	background-color:white;
+	line-height:32px;
+	position:absolute;
+	margin-left:-10px;
+	top: 32px;
+	border:1px solid #eeeeee;
+	border-top:none;
+	z-index:999;
+}
+.banner_cx_p{
+	text-align:center;
+}
+.cx_photo{
+	margin-left:10px;
+}
+.fight{
+	 border-bottom:1px dashed black;
+	 width:143px;
+	 text-align:center;
+}
+.fight td{
+	height:20px;
+	width:71px;
+	font-size:12px;
+}
+/*网站支持，网站导航*/
+.nav_big{
+	 width:1250px;
+	 height:250px;
+	 background-color:white;
+	 position:absolute;
+	 right:-84px;
+	 border:1px solid #eeeeee;
+	 border-top:none;
+	 z-index:100px;
+}
+.nav_big td{
+	width:82px;
+	height:28px;
+}
+.nav_1{
+	height:248px;
+	width:305px;
+}
+.nav_1 h2{
+	color:#f67b1e;
+}
+.nav_2{
+	height:248px;
+	width:405px;
+}
+.nav_2 h2{
+	color:#2263d4;
+}
+.nav_3{
+	height:248px;
+	width:300px;
+}
+.nav_3 h2{
+	color:#000;
+}
+.nav_4{
+	height:248px;
+	width:185px;
+}
+.nav_4 h2{
+	color:#000;
+}
+.nav_big table{
+	margin-left:30px;
+}
+.nav_big h2{
+	margin-left:30px;
+	margin-top:20px;
+}
+/*header结束*/
+.photo{
+	width: 100%;
+    background: url(images/fuwu.jpg) center no-repeat;
+    height: 565px;
+    position: relative;
+    margin:0 auto;
+}
+/*logo部分*/
+.logo_all{
+	width:980px;
+	margin:0 auto;
+	padding-top:10px;
+	position:relative;
+}
+.center_logo_1{
+    padding: 0 9px 0 0;
+    width: 130px;
+    height: 33px;
+    display: inline-block;
+    float: left;
+}
+.center_logo_2{
+	width: 106px;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    margin: 7px 0 0 9px;
+}
+.service_center{
+	width:980px;
+	margin:0 auto;
+	margin-top:380px;
+	position:relative;
+}
+.service{
+	height:44px;
+	width:380px;
+	position:absolute;
+	left:30%;
+}
+.service_left:hover {
+	opacity:0;
+
+}
+.service_right:hover {
+	opacity:0;
+}
+/*logo动画效果*/
+@-webkit-keyframes logo_tb{
+	0%{
+		transform:translatex(-190px)
+	}
+	100%{
+		transform:translatex(0px)
+	}
+}
+.center_logo_1{
+	-webkit-animation-name:logo_tb;
+	-webkit-animation-duration:5s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-iteration-count:1;
+}
+@-webkit-keyframes logo_fw{
+	0%{
+		transform:translatex(600px)
+	}
+	30%{
+		transform:translatex(250px)
+	}
+	60%{
+		transform:translatex(40px) rotate(0deg);
+	}
+	80%{
+		transform:translatex(-70px) rotate(-30deg);
+	}
+	84%{
+		transform:translatex(-45px) rotate(-10deg);
+	}
+	88%{
+		transform:translatex(-25px) rotate(15deg);
+	}
+	92%{
+		transform:translatex(-15px) rotate(-5deg);
+	}
+	96%{
+		transform:translatex(-6px) rotate(5deg);
+	}
+	100%{
+		transform:translatex(0px) rotate(0deg);
+	}
+}
+.center_logo_2{
+	-webkit-animation-name:logo_fw;
+	-webkit-animation-duration:5s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-iteration-count:1;
+}
+/*logo动画结束*/
+/*footer开始*/
+footer{
+	width:1200px;
+	font-size:12px;
+	margin:0 auto;
+	margin-top:30px;
+}
+footer a:hover{
+	color:#f60;
+}
+footer li{
+	list-style:none;
+	margin:5px 10px;
+	float:left;
+}
+.friendship{
+	height:30px;
+}
+.friendship_span{
+	margin-left:20px;
+}
+/*footer结束*/

@@ -1,0 +1,213 @@
+/*通用样式栏*/
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+body{
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.cl{
+	clear:both;
+}
+.vertical_align_top{
+	vertical-align:top;
+}
+/*header开始*/
+header{
+	width:1200px;
+	height:88px;
+	margin:0 auto;
+}
+.header_photo{
+	padding-top:20px;
+	height:30px;
+	width:200px;
+}
+.header_right{
+	 width:900px;
+	 background-color:#fef2f2;
+	 border:1px solid #ffb4a8;
+	 font-size:11px;
+	 text-align:center;
+	 line-height:16px;
+	 padding: 6px 10px;
+	 position:relative;
+	 top:20px;
+	 left:80px;
+}
+/*center部分*/
+.center{
+	background:url(taobao/center.jpg);
+	width:100%;
+	height:600px;
+	position: relative;
+    z-index: 9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.center_c{
+	width:1200px;
+	height:600px;
+	margin:0 auto;
+	position:relative;
+}
+/*账户密码登录*/
+#login{
+	display:none;
+	width:350px;
+	height:350px;
+	font-size:12px;
+	background-color:#fff7f1;
+	position:absolute;
+	right:70px;
+	top:100px;
+	z-index:999;
+}
+.login_code{
+	position:absolute;
+	right:80px;
+	top:10px;
+	z-index:999;
+}
+.login_text{
+	margin-top:5px;
+	border:none;
+	height:30px;
+	outline:none;
+	background-color:#fff7f1;
+}
+.login_password{
+	margin-top:5px;
+	border:none;
+	height:30px;
+	outline:none;
+	background-color:#fff7f1;
+}
+.login_button{
+	height:42px;
+	width:300px;
+	border:none;
+	background-color:#ff4400;
+	border-radius:3px;
+}
+.vertical_4{
+	vertical-align:-4px;
+}
+#login h4{
+	margin-left:30px;
+	margin-top:40px;
+}
+#login p{
+	border:1px solid #dddddd;
+	height:40px;
+	width:298px;
+	line-height:40px;
+	margin:15px auto;
+}
+.login_p{
+	 border:none;
+}
+#login p:active{
+	border:1px solid red;
+}
+.login_bottom{
+	position:absolute;
+	right:30px;
+	bottom:20px;
+}
+#login a:hover{
+	color:#f60;
+}
+/*二维码登录界面*/
+#loginsm{
+	width:350px;
+	height:350px;
+	font-size:12px;
+	background-color:#fff7f1;
+	position:absolute;
+	right:70px;
+	top:100px;
+}
+#loginsm a:hover{
+	color:#f60;
+}
+h4{
+	margin-top:30px;
+	margin-left:20px;
+	margin-bottom:30px;
+	font-size:16px;
+}
+.smdl{
+	width:350px;
+	height:180px;
+	text-align:center;
+}
+.phone{
+	visibility:hidden;
+	opacity:0;
+	position:absolute;
+	left:55%;
+	top:100px;
+}
+.sys{
+	position:absolute;
+	left:20%;
+	bottom:45px;
+}
+.sys_photo{
+	vertical-align:top;
+	float:left;
+}
+.smdl:hover .ewmdl{
+	transform:translatex(-50px);
+}
+.ewmdl{
+	transition:all 0.5s linear 0s;
+}
+.smdl:hover .phone{
+	visibility:visible;
+	opacity:1;
+	transform:translatey(-40px);
+	transition:all 0.3s linear 0.2s;
+}
+.phone{
+	transition:all 0.5s linear 0s;
+}
+/*二维码登录结束*/
+/*转换部分*/
+.change{
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+#login:target{
+	display:block;
+}
+/*转换结束*/
+/*footer开始*/
+footer{
+	width:1200px;
+	font-size:12px;
+	margin:0 auto;
+}
+footer a:hover{
+	color:#f60;
+}
+footer li{
+	list-style:none;
+	margin:5px 10px;
+	float:left;
+}
+.friendship{
+	height:30px;
+}
+.friendship_span{
+	margin-left:20px;
+}
